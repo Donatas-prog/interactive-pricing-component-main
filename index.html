@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  
+  <style>
+    
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main_container">
+    <div class="top_header">
+  <header class="top_container">
+    <div class="top_image">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div> 
+</header>
+</div>
+<section class="section_container">
+  <div class="section_top">
+    <div class="desktop_view">
+  <div class="pageviews">
+    <div id="views_number" class="pageviews_number">10K</div>
+    <div class="pageviews_bottom">Pageviews</div>  
+  </div>
+  <div class="month2">
+    <span class="dollar_sign">$</span>
+    <div id="month_number2" class="month_number">16</div>
+    <span class="zeros">.00</span>
+  <div class="dollars_month">/month</div>
+</div>
+</div>
+  <div class="slider_container">
+  <input type="range" value="0" min="0" max="4" id="slider_top" class="slider_top">
+</div>
+  <div class="month">
+    <span class="dollar_sign">$</span>
+    <div id="month_number" class="month_number">16</div>
+    <span class="zeros">.00</span>
+    <div class="dollars_month">/month</div>
+  </div>
+</div>
+<div class="billing">
+  <div class="monthly">Monthly Billing</div>
+  <div id='toggle_button' class="toggle_button">
+    <label class="switch">
+      <input type="checkbox" id="toggle_input" class="input_type">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="yearly">Yearly Billing</div>
+  <div class="discount">
+    <div class="discount_amount">-25%</div> 
+    <div class="discount_word">-25% discount</div> 
+  </div>
+</div>
+<div class="section_footer">
+  <div class="unlimited">
+    <ul>
+      <li><img src="images/icon-check.svg" alt="icon-check"><span>Unlimited websites</span></li>
+      <li><img src="images/icon-check.svg" alt="icon-check"><span>100% data ownership</span></li>
+      <li><img src="images/icon-check.svg" alt="icon-check"><span>Email reports</span></li>
+    </ul>
+  </div>
+  <div class="button_footer">
+    <button type="button">Start my trial</button>
+  </div>
+</div>
+</section>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Donatas B</a>.
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
